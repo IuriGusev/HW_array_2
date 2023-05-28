@@ -38,12 +38,10 @@ public class Main {
             if (arr[i] > max) {
                 max = arr[i];
             }
-            for (int j =30; j < arr.length; j--) {
-                if (arr[j] > min) {
-                    min=arr[j];
+                if (arr[i] < min) {
+                    min = arr[i];
                 }
             }
-        }
         System.out.println("Минимальная сумма трат за день составила " + min  + " рублей. " +
                 "Максимальная сумма трат за день составила " + max + " рублей");
     }
